@@ -11,5 +11,7 @@
 
 # Пример использования
 
-    System.out.println(KatoPaternity.getParent(632400405, new HashSet<>(Arrays.asList(632400400, 632400000)))); // вернет 632400400
-    System.out.println(KatoPaternity.getParent(315055109, new HashSet<>(Arrays.asList(315055000, 315055100)))); // вернет 315055100
+    System.out.println(KatoPaternity.getParent(632400405, 
+        new HashSet<>(Arrays.asList(632400400, 632400000)))); // вернет 632400400
+    System.out.println(KatoPaternity.getParent(315055109, 
+        new HashSet<>(Arrays.asList(315055000, 315055100)))); // вернет 315055100
